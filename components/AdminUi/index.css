@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .admin-page {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .users-list {
+    list-style-type: none;
+    padding-inline-start: 0%;
+    min-height: 80vh;
+    border: solid 1px black;
+    border-radius: 10px;
+  }
+  
+  .user-list-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid gray;
+    justify-content: space-between;
+  }
+  
+  .checkbox {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+  }
+  
+  .header-name {
+    font-size: 24px;
+    width: 20vw;
+    font-family: 'Roboto';
+  }
+  
+  .header-email {
+    font-size: 24px;
+    width: 20vw;
+    font-family: 'Roboto';
+  }
+  
+  .header-role {
+    font-size: 24px;
+    width: 20vw;
+    font-family: 'Roboto';
+  }
+  
+  .header-actions {
+    font-size: 24px;
+    width: 20vw;
+    font-family: 'Roboto';
+  }
+  
+  .search-input {
+    
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: 0.5px solid gray;
+    width: 90vw;
+    border-radius: 4px;
+    background-color: transparent;
+    margin-bottom: 20px;
+  }
+
+  .loading {
+    height: 300px;
+    width: 300px;
+  }
+
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .users-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .checkbox-container{
+    width: 200px;
+    margin-left: 50px;
+    
+  }
+
+  .headers-contaier {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .ul-users-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+
+  .heading{
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+  }
+
+  
